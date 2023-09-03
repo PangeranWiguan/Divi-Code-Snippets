@@ -40,8 +40,6 @@ I then change the Admin Label for ease of management later days if I want to cha
 
 Do not forget to change the Admin Label to Spoiler Reset CSS for easy maintenance.
 
-If you want to change the style of the accordion, just change this code module without touching others.
-
 ```html
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
 ```
@@ -52,6 +50,8 @@ If you want to change the style of the accordion, just change this code module w
 Add another Divi Code module and paste it there like this.
 
 Don't forget to type the `<style></style>` code element.
+
+If you want to change the style of the accordion, just change this code module without touching others.
 
 ```html
 <style>
