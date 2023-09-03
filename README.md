@@ -4,4 +4,4 @@
 # Content:
 
 # 1 Divi Accordion Modular Code
-[Divi Accordion Modular Code](/DIVI%20Accordion%20Modular%20Code/README.md)
+[Divi Accordion Modular Code](/DIVI%20Accordion%20Modular%20Code/)
