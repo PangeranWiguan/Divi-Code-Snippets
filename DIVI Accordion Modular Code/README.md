@@ -63,7 +63,7 @@ If you want to change the style of the accordion, just change this code module w
 
 Paste the code from Divi Code [4. Spoiler Start.html](/DIVI%20Accordion%20Modular%20Code/Divi%20Code/4.%20Spoiler%20Start.html)
 
-Please note that this code is not a complete html, because we want to cancel the Divi auto generated code when you inser anything using the Divi module.
+Please note that this code is not a complete html, because we want to cancel the Divi auto generated code when you insert anything using the Divi module.
 
 ```html
 <!--Paste From Here 1 -->
