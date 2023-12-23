@@ -10,7 +10,7 @@ Show which category have new post.
 # How To Use?
 1. Install WP Code Snippet.
 2. Add new custom snippet.
-4. Copy the whole code from [index.php](/Show%20Which%20Category%20Have%20New%20Post/index.php).
+4. Copy the whole code from [shows-category-with-new-post-type-2.php](/Show%20Category%20With%20New%20Posts%20Type%202/shows-category-with-new-post-type-2.php).
 4. Choose `Universal Snippet`.
 5. Choose insert method, short code.
 6. Copy the short code, and paste into code module.
