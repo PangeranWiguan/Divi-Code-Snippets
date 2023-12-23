@@ -32,26 +32,26 @@ while ( have_posts() ) {
 	the_post();
 
 	// Show posts of current post categories
-    $post_id = get_the_ID();
-    $post_categories = wp_get_post_categories( $post_id );
+    	$post_id = get_the_ID();
+    	$post_categories = wp_get_post_categories( $post_id );
 
-    $query_args = array(
-    	'post_type' => 'post',
-        'post_status' => 'publish',
-        'category__in' => $post_categories,
+    	$query_args = array(
+		'post_type' => 'post',
+		'post_status' => 'publish',
+		'category__in' => $post_categories,
 		'orderby' => 'date',
 		'order' => 'ASC',
 	);
 
 	$query_res = new WP_Query($query_args);
 
-    if ( $query_res->have_posts() ) {
+    	if ( $query_res->have_posts() ) {
 
-    	while ( $query_res->have_posts() ) {
+    		while ( $query_res->have_posts() ) {
 
 			$query_res->the_post();
 			the_title(sprintf( '<li class="episode-list-item"><a href="%s" target="_blank">', esc_attr( esc_url( get_permalink() ) ) ),
-  '</a></li>');
+  			'</a></li>');
             
 		}
 
