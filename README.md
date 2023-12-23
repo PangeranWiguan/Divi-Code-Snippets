@@ -13,3 +13,9 @@ Useful Divi Code Snippet That I Use
 It's the same with content no. 2, but here the image is not rendered as background, it is responsive in mobile view port, and also fix the break when view in 4K resolutions display.
 
 [Divi Show Which Category Have New Post Type 2](/Show%20Category%20With%20New%20Posts%20Type%202/)
+
+# 4. Divi Custom Fields Video Tabs.
+
+Show Videos in Tabs from different video provider.
+
+[Divi Custom Field Video Server v2](/Custom%20Field%20Video%20Server%20v2/)
