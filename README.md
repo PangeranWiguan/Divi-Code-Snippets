@@ -8,3 +8,8 @@ Useful Divi Code Snippet That I Use
 
 # 2 Divi Show Which Category Have New Post
 [Divi Show Which Category Have New Post](/Show%20Which%20Category%20Have%20New%20Post/)
+
+# 3 Divi Show Which Category Have New Post Type 2
+It's the same with content no. 2, but here the image is not rendered as background, it is responsive in mobile view port, and also fix the break when view in 4K resolutions display.
+
+[Divi Show Which Category Have New Post Type 2](/Show%20Category%20With%20New%20Posts%20Type%202/)
