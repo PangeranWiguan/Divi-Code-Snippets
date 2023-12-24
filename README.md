@@ -19,3 +19,6 @@ It's the same with content no. 2, but here the image is not rendered as backgrou
 Show Videos in Tabs from different video provider.
 
 [Divi Custom Field Video Server v2](/Custom%20Field%20Video%20Server%20v2/)
+
+# 5. Divi Show List of All Other Post of Current Post Categories (Show Episodes in Post)
+[Divi Show Episodes In Post](/Show%20Episodes%20in%20Posts/)
