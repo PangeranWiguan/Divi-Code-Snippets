@@ -12,3 +12,5 @@ Actually, on normal WordPress usage, this code snippet showing list of posts for
 6. Copy the short code, and paste into code module inside Divi Theme builder for `All Post`.
 
 Since 23rd December 2023.
+
+&copy; 2023 [pangeranwiguan.com](https://pangeranwiguan.com)

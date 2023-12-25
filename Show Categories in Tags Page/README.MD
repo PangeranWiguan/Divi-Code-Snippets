@@ -10,3 +10,5 @@ This code snippet is to change WordPress default behaviour of showing lists of p
 6. Copy the short code, and paste into code module inside Divi Theme Builder for All Tags Page.
 
 Since 23rd December 2023.
+
+&copy; 2023 [pangeranwiguan.com](https://pangeranwiguan.com)

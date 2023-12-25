@@ -15,3 +15,5 @@ This code snippet simply show the splitted post navigation to appear in a code m
 9. If you want to insert it twice, change the function name `divi_is_paginated_post` into `divi_is_paginated_post2` and so on.
 
 Since 25rd December 2023.
+
+&copy; 2023 [pangeranwiguan.com](https://pangeranwiguan.com)

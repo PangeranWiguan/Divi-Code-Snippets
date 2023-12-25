@@ -11,3 +11,5 @@ Convert video direct embed link into embed code inside the post.
 7. You can use tags or categories to differentiate this post from normal post so that the short code won't appear in normal post without the custom field.
 
 Since 23rd December 2023.
+
+&copy; 2023 [pangeranwiguan.com](https://pangeranwiguan.com)

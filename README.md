@@ -31,3 +31,5 @@ Show list of all other post of ONLY the same category as the current post.
 Restore the broken `<!--nextpage-->` WordPress feature where you can split a single post into multiple post in Divi.
 
 [Divi Page Break `<!--nextpage-->`](/Divi%20Page%20Break/)
+
+&copy; 2023 [pangeranwiguan.com](https://pangeranwiguan.com)

@@ -117,3 +117,5 @@ Just like our `Step 3`, copy the whole [6. script.js](/DIVI%20Accordion%20Modula
 ```
 
 6. The setup is done. Now you can add any module in between the `Spoiler Start` and `Spoiler End`
+
+&copy; 2023 [pangeranwiguan.com](https://pangeranwiguan.com)
