@@ -21,4 +21,13 @@ Show Videos in Tabs from different video provider.
 [Divi Custom Field Video Server v2](/Custom%20Field%20Video%20Server%20v2/)
 
 # 5. Divi Show List of All Other Post of Current Post Categories (Show Episodes in Post)
+
+Show list of all other post of ONLY the same category as the current post.
+
 [Divi Show Episodes In Post](/Show%20Episodes%20in%20Posts/)
+
+# 6. Divi Page Break `<!--nextpage-->`
+
+Restore the broken `<!--nextpage-->` WordPress feature where you can split a single post into multiple post in Divi.
+
+[Divi Page Break `<!--nextpage-->`](/Divi%20Page%20Break/)
