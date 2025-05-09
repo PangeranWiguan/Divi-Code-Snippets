@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restricted Access Site</title>
+    <style>
+        /* Basic Reset & Body Style */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            overflow: hidden; /* Prevent scrolling when modal is open */
+        }
+
+        /* Modal Overlay */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.65); /* Darker, more prominent overlay */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: opacity 0.3s ease, visibility 0s linear 0.3s;
+        }
+
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+            transition: opacity 0.3s ease;
+        }
+
+        /* Modal Content Box */
+        .modal-content {
+            background-color: #ffffff;
+            padding: 30px 40px; /* More padding */
+            border-radius: 12px; /* Slightly larger radius for a softer look */
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15), 0 0 0 1px rgba(0,0,0,0.05); /* Softer shadow + subtle border */
+            width: 90%;
+            max-width: 550px; /* Increased max-width */
+            text-align: left; /* Left align text for professional feel */
+            transform: scale(0.95);
+            transition: transform 0.3s ease;
+        }
+
+        .modal-overlay.active .modal-content {
+            transform: scale(1);
+        }
+
+        .modal-content h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            color: #2c3e50; /* A deep, professional blue-gray */
+            font-size: 1.8em;
+            font-weight: 600;
+            border-bottom: 1px solid #eee;
+            padding-bottom: 15px;
+        }
+
+        .modal-content p {
+            margin-bottom: 25px;
+            font-size: 1.05em; /* Slightly larger for readability */
+            color: #555;
+        }
+
+        .modal-content strong {
+            color: #d35400; /* A subtle accent color for emphasis */
+        }
+
+        /* Agree Button */
+        .modal-button {
+            display: block; /* Full width button */
+            width: 100%;
+            padding: 14px 25px;
+            background-color: #3498db; /* Professional blue */
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 1.1em;
+            font-weight: 500;
+            transition: background-color 0.2s ease, transform 0.1s ease;
+        }
+
+        .modal-button:hover {
+            background-color: #2980b9; /* Darker blue on hover */
+        }
+        .modal-button:active {
+            transform: translateY(1px); /* Slight press effect */
+        }
+
+        /* Main Content Area (Example) */
+        .main-content {
+            padding: 20px;
+            display: none; /* Hidden until modal is agreed */
+        }
+
+        .main-content.visible {
+            display: block;
+        }
+
+        /* Mobile Friendliness */
+        @media (max-width: 600px) {
+            .modal-content {
+                padding: 25px 20px;
+                width: 90%;
+            }
+            .modal-content h2 {
+                font-size: 1.5em;
+            }
+            .modal-content p {
+                font-size: 0.95em;
+            }
+            .modal-button {
+                padding: 12px 20px;
+                font-size: 1em;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- The Modal -->
+    <div id="access-notice-modal" class="modal-overlay">
+        <div class="modal-content">
+            <h2>Important Access Notice</h2>
+            <p>
+                Please be advised that this website is configured with <strong>"no-index"</strong> and <strong>"no-crawl"</strong> directives.
+                Consequently, it will not appear in search engine results and is not intended for public discovery.
+            </p>
+            <p>
+                Access to this website is exclusively for individuals who have been directly provided with the link.
+                If you were not the intended recipient, we kindly request that you refrain from sharing this link.
+            </p>
+            <p>Your understanding and discretion are appreciated.</p>
+            <button id="agree-button" class="modal-button">I Understand and Agree</button>
+        </div>
+    </div>
+
+    <!-- Example Page Content -->
+    <div class="main-content" id="page-content">
+        <h1>Welcome to Our Private Site</h1>
+        <p>This is the main content of the website, visible only after agreeing to the access terms.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const modalOverlay = document.getElementById('access-notice-modal');
+            const agreeButton = document.getElementById('agree-button');
+            const mainContent = document.getElementById('page-content');
+            const body = document.body;
+
+            // Show the modal when the page loads
+            // Using a short timeout to ensure styles are applied before transition
+            setTimeout(() => {
+                modalOverlay.classList.add('active');
+                body.style.overflow = 'hidden'; // Prevent background scrolling
+            }, 50);
+
+
+            // When the user clicks on the "I Agree" button, close the modal
+            agreeButton.addEventListener('click', function() {
+                modalOverlay.classList.remove('active');
+                // Allow main content to be visible and body to scroll
+                mainContent.classList.add('visible');
+                body.style.overflow = 'auto';
+            });
+
+            // Optional: Prevent closing modal by clicking outside (if desired)
+            // modalOverlay.addEventListener('click', function(event) {
+            //     if (event.target === modalOverlay) {
+            //         // If you want to allow closing by clicking overlay:
+            //         // modalOverlay.classList.remove('active');
+            //         // mainContent.classList.add('visible');
+            //         // body.style.overflow = 'auto';
+            //
+            //         // If you want to PREVENT closing by clicking overlay:
+            //         // Do nothing, or maybe add a slight shake animation to the modal content
+            //     }
+            // });
+        });
+    </script>
+
+</body>
+</html>
