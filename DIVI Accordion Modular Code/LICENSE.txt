@@ -1,6 +1,6 @@
 The MIT License (MIT)
 
-Copyright (c) 2023 Pangeran Wiguan (https://codepen.io/PangeranWiguan/pen/qBLaOyL)
+Copyright (c) 2023 - 2025 Pangeran Wiguan (https://codepen.io/PangeranWiguan/pen/qBLaOyL)
 Fork of an original work CSS Responsive Animated Accordion (Modular for WordPress) (https://codepen.io/PangeranWiguan/pen/qBLaOyL)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy

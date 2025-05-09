@@ -3,7 +3,7 @@
 	Show Category With New Post (No Repeat)
 	by Pangeran Wiguan
 	https://pangeranwiguan.com
-	Since 22nd July 2023
+	Since 22nd July 2023 - 2025
 
 	I use this for a website that show's TV Series.
     	Each episode will be posted inside a category with the TV Series name.

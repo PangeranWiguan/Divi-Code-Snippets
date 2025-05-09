@@ -3,7 +3,7 @@
 	Divi Page Break
 	by Pangeran Wiguan
 	https://pangeranwiguan.com
-	Since 25rd December 2023
+	Since 25rd December 2023 - 2025
 
 	By default, Divi break the WordPress page break functionality (<!--nextpage-->) in Divi Theme Builder.
 	This code snippet is to atleast solve the problem.

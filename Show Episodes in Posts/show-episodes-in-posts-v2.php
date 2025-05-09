@@ -3,7 +3,7 @@
 	Show Episodes in Posts
 	by Pangeran Wiguan
 	https://pangeranwiguan.com
-	Since 23rd December 2023
+	Since 23rd December 2023 - 2025
 
 	I use this for a website that show's TV Series.
     	

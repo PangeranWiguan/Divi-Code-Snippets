@@ -6,7 +6,6 @@ My use case scenario was to hide content while still using DIVI Module.
 
 Any module in between this code will be able to be hidden by the accordion spoiler block.
 
-
 # HTML Example
 
 Maybe you can implement it better?
@@ -28,7 +27,10 @@ All the reference code is availabe at Divi Code Folder here: [Divi Code](/DIVI%2
 1. Use Divi Code module and paste the code below.
 
 ```html
-<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js" type="text/javascript"></script>
+<script
+  src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"
+  type="text/javascript"
+></script>
 ```
 
 This is how it look like.
@@ -41,11 +43,14 @@ I then change the Admin Label for ease of management later days if I want to cha
 Do not forget to change the Admin Label to Spoiler Reset CSS for easy maintenance.
 
 ```html
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+/>
 ```
 
 3. Spoiler Style CSS is available here.
-[Spoiler Style CSS](/DIVI%20Accordion%20Modular%20Code/Divi%20Code/3.%20style.css)
+   [Spoiler Style CSS](/DIVI%20Accordion%20Modular%20Code/Divi%20Code/3.%20style.css)
 
 Add another Divi Code module and paste it there like this.
 
@@ -55,7 +60,7 @@ If you want to change the style of the accordion, just change this code module w
 
 ```html
 <style>
-	/* Paste The CSS Code Here */
+  /* Paste The CSS Code Here */
 </style>
 ```
 
@@ -67,23 +72,36 @@ Please note that this code is not a complete html, because we want to cancel the
 
 ```html
 <!--Paste From Here 1 -->
-				<!-- Spoiler Start -->
+<!-- Spoiler Start -->
 
-				<div class="accordion">
-					<dl>
-					  <!-- Loop Starts Here -->
-					  <dt>
-					    <a href="#accordion3" aria-expanded="false" aria-controls="accordion3" class="accordion-title accordionTitle js-accordionTrigger">
-					      Spoiler
-					    </a>
-					  </dt>
-					  <dd class="accordion-content accordionItem is-collapsed" id="accordion3" aria-hidden="true">
-					    
-					    <!-- Content Start Here -->
+<div class="accordion">
+  <dl>
+    <!-- Loop Starts Here -->
+    <dt>
+      <a
+        href="#accordion3"
+        aria-expanded="false"
+        aria-controls="accordion3"
+        class="accordion-title accordionTitle js-accordionTrigger"
+      >
+        Spoiler
+      </a>
+    </dt>
+    <dd
+      class="accordion-content accordionItem is-collapsed"
+      id="accordion3"
+      aria-hidden="true"
+    >
+      <!-- Content Start Here -->
 
-					    <div id="canceling-div-1">
-						<div id="canceling-div-2">
-					    <!-- End Paste From Here 1 -->
+      <div id="canceling-div-1">
+        <div id="canceling-div-2">
+          <!-- End Paste From Here 1 -->
+        </div>
+      </div>
+    </dd>
+  </dl>
+</div>
 ```
 
 Add another module of the ending code.
@@ -112,10 +130,10 @@ Just like our `Step 3`, copy the whole [6. script.js](/DIVI%20Accordion%20Modula
 
 ```html
 <script>
-	<!-- Paste the script.js script here. -->
+  <!-- Paste the script.js script here. -->
 </script>
 ```
 
 6. The setup is done. Now you can add any module in between the `Spoiler Start` and `Spoiler End`
 
-&copy; 2023 [pangeranwiguan.com](https://pangeranwiguan.com)
+&copy; 2023 - 2025 [pangeranwiguan.com](https://pangeranwiguan.com)
