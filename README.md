@@ -40,4 +40,8 @@ Restore the broken `<!--nextpage-->` WordPress feature where you can split a sin
 
 [No Index No Sharing Modal](/No%20Index%20No%20Sharing%20Modal/)
 
+# 8. Divi Custom Post Type Full Width Slider
+
+[CPT FullWidth Slider](/CPT%20Fullwidth%20Slider/)
+
 &copy; 2023 - 2025 [pangeranwiguan.com](https://pangeranwiguan.com)
