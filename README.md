@@ -44,4 +44,9 @@ Restore the broken `<!--nextpage-->` WordPress feature where you can split a sin
 
 [CPT FullWidth Slider](/CPT%20Fullwidth%20Slider/)
 
+# 9. Divi Custom Post Type Blocks.
+
+[Divi Custom Post Type Blocks.](/CPT%20Post%20Blocks/)
+Usage is the same with the others, especially #8.
+
 &copy; 2023 - 2025 [pangeranwiguan.com](https://pangeranwiguan.com)
