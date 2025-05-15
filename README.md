@@ -49,4 +49,8 @@ Restore the broken `<!--nextpage-->` WordPress feature where you can split a sin
 [Divi Custom Post Type Blocks.](/CPT%20Post%20Blocks/)
 Usage is the same with the others, especially #8.
 
+# 10. Custom YouTube Playlist Player
+
+[Custom Playlist Player](/Custom%20YouTube%20Playlist%20Player/)
+
 &copy; 2023 - 2025 [pangeranwiguan.com](https://pangeranwiguan.com)

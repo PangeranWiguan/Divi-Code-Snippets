@@ -156,7 +156,7 @@ $slider_html_output = ob_get_clean(); // Get buffered HTML
             
             const customSliderStyles = ` 
                 .release-post-slider { width: 100%; margin: 0 auto; position: relative; /* Ensure this is relative for z-indexing */ } 
-                .rps-slide { height: 80vh; position: relative; overflow: hidden !important; color: #fff; display: flex !important; align-items: center; justify-content: center; } 
+                .rps-slide { height: 100vh; position: relative; overflow: hidden !important; color: #fff; display: flex !important; align-items: center; justify-content: center; } 
                 .rps-parallax-bg { position: absolute !important; top: 0 !important; left: 0 !important; width: 100% !important; height: 100% !important; object-fit: cover !important; z-index: 1 !important; display: block !important; } 
                 .rps-slide .simpleParallax { width:100% !important; height:100% !important; overflow: hidden !important; position:absolute !important; top:0 !important; left:0 !important; z-index: 0 !important; } 
                 .rps-slide .simpleParallax > img { object-fit: cover !important; width: 100% !important; height: 100% !important; display:block !important; position:absolute !important; top:0 !important; left:0 !important; } 
